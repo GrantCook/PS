@@ -30,7 +30,7 @@ namespace BethanysPieShop.Models
 
         public IEnumerable<Pie> GetAllPies()
         {
-            return _pies
+            return _pies;
         }
 
 
