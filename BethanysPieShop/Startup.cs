@@ -43,6 +43,7 @@ namespace BethanysPieShop
             app.UseStatusCodePages();
             //Search in wwwroot file and return static files
             app.UseStaticFiles();
+            app.UseAuthentication();
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
